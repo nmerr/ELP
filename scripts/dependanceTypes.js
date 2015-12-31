@@ -5,7 +5,7 @@
 
     angular
         .module('formlyApp')
-        .factory('dependance', depandance);
+        .factory('dependance', dependance);
 
     function dependance() {
         function getdependance() {

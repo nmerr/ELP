@@ -432,7 +432,7 @@
                 templateOptions: {
                     label: 'Murs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -442,7 +442,7 @@
                 templateOptions: {
                     label: 'Sol',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -452,7 +452,7 @@
                 templateOptions: {
                     label: 'Parquet',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -462,7 +462,7 @@
                 templateOptions: {
                     label: 'Porte',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -472,7 +472,7 @@
                 templateOptions: {
                     label: 'Seuil',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -482,7 +482,7 @@
                 templateOptions: {
                     label: 'Palier',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -492,7 +492,7 @@
                 templateOptions: {
                     label: 'Prises',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -502,7 +502,7 @@
                 templateOptions: {
                     label: 'Sonnettes',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -512,7 +512,7 @@
                 templateOptions: {
                     label: 'Interrupteurs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -522,7 +522,7 @@
                 templateOptions: {
                     label: 'Eclairage',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -532,7 +532,7 @@
                 templateOptions: {
                     label: 'Armoires',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -542,7 +542,7 @@
                 templateOptions: {
                     label: 'Fenetre',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -552,7 +552,7 @@
                 templateOptions: {
                     label: 'Radiateurs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -589,7 +589,7 @@
                 templateOptions: {
                     label: 'Murs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -599,7 +599,7 @@
                 templateOptions: {
                     label: 'Sol',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -609,7 +609,7 @@
                 templateOptions: {
                     label: 'Porte',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -619,7 +619,7 @@
                 templateOptions: {
                     label: 'Seuil',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -629,7 +629,7 @@
                 templateOptions: {
                     label: 'Clefs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -639,7 +639,7 @@
                 templateOptions: {
                     label: 'Aisselier',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -649,7 +649,7 @@
                 templateOptions: {
                     label: 'Vitre',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -659,7 +659,7 @@
                 templateOptions: {
                     label: 'Fenetres',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -669,7 +669,7 @@
                 templateOptions: {
                     label: 'Radiateurs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -679,7 +679,7 @@
                 templateOptions: {
                     label: 'Placards',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -689,7 +689,7 @@
                 templateOptions: {
                     label: 'Armoires',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -699,7 +699,7 @@
                 templateOptions: {
                     label: 'Porte Armoires',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -709,7 +709,7 @@
                 templateOptions: {
                     label: 'Clefs Armoires',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -719,7 +719,7 @@
                 templateOptions: {
                     label: 'Prises',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -729,7 +729,7 @@
                 templateOptions: {
                     label: 'Interrupteurs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -739,7 +739,7 @@
                 templateOptions: {
                     label: 'Eclairage',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -749,7 +749,7 @@
                 templateOptions: {
                     label: 'Stores',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -759,7 +759,7 @@
                 templateOptions: {
                     label: 'Ventillation',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -769,7 +769,7 @@
                 templateOptions: {
                     label: 'Faiences',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -779,7 +779,7 @@
                 templateOptions: {
                     label: 'Ecoulement',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -789,7 +789,7 @@
                 templateOptions: {
                     label: 'Robinetterie',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -799,7 +799,7 @@
                 templateOptions: {
                     label: 'Bouchon',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -809,7 +809,7 @@
                 templateOptions: {
                     label: 'Four',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -819,7 +819,7 @@
                 templateOptions: {
                     label: 'Plaques',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -829,7 +829,7 @@
                 templateOptions: {
                     label: 'Evier',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -839,7 +839,7 @@
                 templateOptions: {
                     label: 'Poubelle',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -849,7 +849,7 @@
                 templateOptions: {
                     label: 'Lave Vaisselle',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -859,7 +859,7 @@
                 templateOptions: {
                     label: 'Micro Ondes',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -869,7 +869,7 @@
                 templateOptions: {
                     label: 'Frigos',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -879,7 +879,7 @@
                 templateOptions: {
                     label: 'Hotte',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -889,7 +889,7 @@
                 templateOptions: {
                     label: 'Congelateur',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -918,7 +918,7 @@
                 templateOptions: {
                     label: 'Plafond',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -928,7 +928,7 @@
                 templateOptions: {
                     label: 'Murs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -938,7 +938,7 @@
                 templateOptions: {
                     label: 'Sol',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -948,7 +948,7 @@
                 templateOptions: {
                     label: 'Porte',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -958,7 +958,7 @@
                 templateOptions: {
                     label: 'Seuil',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -968,7 +968,7 @@
                 templateOptions: {
                     label: 'Clefs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -978,7 +978,7 @@
                 templateOptions: {
                     label: 'Aisselier',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -988,7 +988,7 @@
                 templateOptions: {
                     label: 'Vitre',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -998,7 +998,7 @@
                 templateOptions: {
                     label: 'Fenetres',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -1007,7 +1007,7 @@
                 templateOptions: {
                     label: 'Store',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1017,7 +1017,7 @@
                 templateOptions: {
                     label: 'Manivelle',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1027,7 +1027,7 @@
                 templateOptions: {
                     label: 'Radiateurs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1037,7 +1037,7 @@
                 templateOptions: {
                     label: 'Pharmacie',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1047,7 +1047,7 @@
                 templateOptions: {
                     label: 'Prises',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1057,7 +1057,7 @@
                 templateOptions: {
                     label: 'PriseFI',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1067,7 +1067,7 @@
                 templateOptions: {
                     label: 'Interrupteurs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1077,7 +1077,7 @@
                 templateOptions: {
                     label: 'Ventillation',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1087,7 +1087,7 @@
                 templateOptions: {
                     label: 'Faiences',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1097,7 +1097,7 @@
                 templateOptions: {
                     label: 'Ecoulement',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1107,7 +1107,7 @@
                 templateOptions: {
                     label: 'Robinetterie',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1117,7 +1117,7 @@
                 templateOptions: {
                     label: 'Bouchons',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1127,7 +1127,7 @@
                 templateOptions: {
                     label: 'Reservoir',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1137,7 +1137,7 @@
                 templateOptions: {
                     label: 'Baignoire',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1147,7 +1147,7 @@
                 templateOptions: {
                     label: 'Top de Douche',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1157,7 +1157,7 @@
                 templateOptions: {
                     label: 'Lavabo 1',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1167,7 +1167,7 @@
                 templateOptions: {
                     label: 'Lavabo 2',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1177,7 +1177,7 @@
                 templateOptions: {
                     label: 'Porte Linge',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1187,7 +1187,7 @@
                 templateOptions: {
                     label: 'Bidet',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1197,7 +1197,7 @@
                 templateOptions: {
                     label: 'WC',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1207,7 +1207,7 @@
                 templateOptions: {
                     label: 'Porte Papier',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1217,7 +1217,7 @@
                 templateOptions: {
                     label: 'Siege',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1227,7 +1227,7 @@
                 templateOptions: {
                     label: 'Porte Savon',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1237,7 +1237,7 @@
                 templateOptions: {
                     label: 'PorteVerre',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1247,7 +1247,7 @@
                 templateOptions: {
                     label: 'Glace',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1257,7 +1257,7 @@
                 templateOptions: {
                     label: 'Eclairage',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1286,7 +1286,7 @@
                 templateOptions: {
                     label: 'Plafond',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1296,7 +1296,7 @@
                 templateOptions: {
                     label: 'Murs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1306,7 +1306,7 @@
                 templateOptions: {
                     label: 'Sol',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1316,7 +1316,7 @@
                 templateOptions: {
                     label: 'Porte',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1326,7 +1326,7 @@
                 templateOptions: {
                     label: 'Seuil',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1336,7 +1336,7 @@
                 templateOptions: {
                     label: 'Clefs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1346,7 +1346,7 @@
                 templateOptions: {
                     label: 'Aisselier',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1356,7 +1356,7 @@
                 templateOptions: {
                     label: 'Vitre',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1366,7 +1366,7 @@
                 templateOptions: {
                     label: 'Fenetres',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1376,7 +1376,7 @@
                 templateOptions: {
                     label: 'Stores',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1386,7 +1386,7 @@
                 templateOptions: {
                     label: 'Manivelles',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1396,7 +1396,7 @@
                 templateOptions: {
                     label: 'Radiateurs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1406,7 +1406,7 @@
                 templateOptions: {
                     label: 'Armoires',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1416,7 +1416,7 @@
                 templateOptions: {
                     label: 'Portes Armoires',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1426,7 +1426,7 @@
                 templateOptions: {
                     label: 'Clés Armoire',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1436,7 +1436,7 @@
                 templateOptions: {
                     label: 'Rayons',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1446,7 +1446,7 @@
                 templateOptions: {
                     label: 'Interrupteur',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1456,7 +1456,7 @@
                 templateOptions: {
                     label: 'Prises TV',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1466,7 +1466,7 @@
                 templateOptions: {
                     label: 'Prises',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1476,7 +1476,7 @@
                 templateOptions: {
                     label: 'Eclairages',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1486,7 +1486,7 @@
                 templateOptions: {
                     label: 'Tenture',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1496,7 +1496,7 @@
                 templateOptions: {
                     label: 'Balcon',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1524,7 +1524,7 @@
                 templateOptions: {
                     label: 'Plafond',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1534,7 +1534,7 @@
                 templateOptions: {
                     label: 'Murs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1544,7 +1544,7 @@
                 templateOptions: {
                     label: 'Sol',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1554,7 +1554,7 @@
                 templateOptions: {
                     label: 'Porte',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1564,7 +1564,7 @@
                 templateOptions: {
                     label: 'Seuil',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1574,7 +1574,7 @@
                 templateOptions: {
                     label: 'Clefs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1584,7 +1584,7 @@
                 templateOptions: {
                     label: 'Aisselier',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1594,7 +1594,7 @@
                 templateOptions: {
                     label: 'Vitre',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1604,7 +1604,7 @@
                 templateOptions: {
                     label: 'Fenetres',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -1613,7 +1613,7 @@
                 templateOptions: {
                     label: 'Store',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1623,7 +1623,7 @@
                 templateOptions: {
                     label: 'Manivelle',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1633,7 +1633,7 @@
                 templateOptions: {
                     label: 'Radiateurs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1643,7 +1643,7 @@
                 templateOptions: {
                     label: 'Pharmacie',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1653,7 +1653,7 @@
                 templateOptions: {
                     label: 'Prises',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1663,7 +1663,7 @@
                 templateOptions: {
                     label: 'PriseFI',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1673,7 +1673,7 @@
                 templateOptions: {
                     label: 'Interrupteurs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1683,7 +1683,7 @@
                 templateOptions: {
                     label: 'Ventillation',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1693,7 +1693,7 @@
                 templateOptions: {
                     label: 'Faiences',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1703,7 +1703,7 @@
                 templateOptions: {
                     label: 'Ecoulement',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1713,7 +1713,7 @@
                 templateOptions: {
                     label: 'Robinetterie',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1723,7 +1723,7 @@
                 templateOptions: {
                     label: 'Bouchons',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1733,7 +1733,7 @@
                 templateOptions: {
                     label: 'Reservoir',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1743,7 +1743,7 @@
                 templateOptions: {
                     label: 'Baignoire',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1753,7 +1753,7 @@
                 templateOptions: {
                     label: 'Top de Douche',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1763,7 +1763,7 @@
                 templateOptions: {
                     label: 'Lavabo 1',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1773,7 +1773,7 @@
                 templateOptions: {
                     label: 'Lavabo 2',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1783,7 +1783,7 @@
                 templateOptions: {
                     label: 'Porte Linge',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1793,7 +1793,7 @@
                 templateOptions: {
                     label: 'Bidet',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1803,7 +1803,7 @@
                 templateOptions: {
                     label: 'WC',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1813,7 +1813,7 @@
                 templateOptions: {
                     label: 'Porte Papier',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1823,7 +1823,7 @@
                 templateOptions: {
                     label: 'Siege',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1833,7 +1833,7 @@
                 templateOptions: {
                     label: 'Porte Savon',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1843,7 +1843,7 @@
                 templateOptions: {
                     label: 'PorteVerre',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1853,7 +1853,7 @@
                 templateOptions: {
                     label: 'Glace',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1863,7 +1863,7 @@
                 templateOptions: {
                     label: 'Eclairage',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1890,17 +1890,17 @@
                 templateOptions: {
                     label: 'Plafond',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
-            
+
             {
                 key: 'PIPPMurs',
                 type: 'select',
                 templateOptions: {
                     label: 'Murs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1910,7 +1910,7 @@
                 templateOptions: {
                     label: 'Sol',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1920,7 +1920,7 @@
                 templateOptions: {
                     label: 'Portes',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -1930,7 +1930,7 @@
                 templateOptions: {
                     label: 'Clefs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -1939,7 +1939,7 @@
                 templateOptions: {
                     label: 'Aisselier',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -1948,7 +1948,7 @@
                 templateOptions: {
                     label: 'Fenêtres',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -1957,7 +1957,7 @@
                 templateOptions: {
                     label: 'Vitres',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -1966,7 +1966,7 @@
                 templateOptions: {
                     label: 'Stores',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -1975,7 +1975,7 @@
                 templateOptions: {
                     label: 'Manivelles',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -1984,7 +1984,7 @@
                 templateOptions: {
                     label: 'Radiateurs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -1993,7 +1993,7 @@
                 templateOptions: {
                     label: 'Armoires',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -2002,7 +2002,7 @@
                 templateOptions: {
                     label: 'Clé Armoires',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2012,7 +2012,7 @@
                 templateOptions: {
                     label: 'Rayons',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2022,7 +2022,7 @@
                 templateOptions: {
                     label: 'Interrupteurs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2032,7 +2032,7 @@
                 templateOptions: {
                     label: 'Prises TV',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2042,7 +2042,7 @@
                 templateOptions: {
                     label: 'Prises',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2052,7 +2052,7 @@
                 templateOptions: {
                     label: 'Eclairage',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2062,7 +2062,7 @@
                 templateOptions: {
                     label: 'Tenture',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2072,7 +2072,7 @@
                 templateOptions: {
                     label: 'Balcon',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2098,7 +2098,7 @@
                 templateOptions: {
                     label: 'Plafond',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2108,7 +2108,7 @@
                 templateOptions: {
                     label: 'Murs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2118,7 +2118,7 @@
                 templateOptions: {
                     label: 'Sol',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2128,7 +2128,7 @@
                 templateOptions: {
                     label: 'Portes',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2138,7 +2138,7 @@
                 templateOptions: {
                     label: 'Clefs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -2147,7 +2147,7 @@
                 templateOptions: {
                     label: 'Aisselier',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -2156,7 +2156,7 @@
                 templateOptions: {
                     label: 'Fenêtres',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -2165,7 +2165,7 @@
                 templateOptions: {
                     label: 'Vitres',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -2174,7 +2174,7 @@
                 templateOptions: {
                     label: 'Stores',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -2183,7 +2183,7 @@
                 templateOptions: {
                     label: 'Manivelles',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -2192,7 +2192,7 @@
                 templateOptions: {
                     label: 'Radiateurs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -2201,7 +2201,7 @@
                 templateOptions: {
                     label: 'Armoires',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
             {
@@ -2210,7 +2210,7 @@
                 templateOptions: {
                     label: 'Clé Armoires',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2220,7 +2220,7 @@
                 templateOptions: {
                     label: 'Rayons',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2230,7 +2230,7 @@
                 templateOptions: {
                     label: 'Interrupteurs',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2240,7 +2240,7 @@
                 templateOptions: {
                     label: 'Prises TV',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2250,7 +2250,7 @@
                 templateOptions: {
                     label: 'Prises',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2260,7 +2260,7 @@
                 templateOptions: {
                     label: 'Eclairage',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2270,7 +2270,7 @@
                 templateOptions: {
                     label: 'Tenture',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2280,7 +2280,7 @@
                 templateOptions: {
                     label: 'Balcon',
                     options: stateOfStuff.getStateOfStuff()
-                    
+
                 }
             },
 
@@ -2294,19 +2294,9 @@
                     required: false
 
                 }
-            },           
+            }
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+
 
         ];
 
