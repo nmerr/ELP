@@ -14,10 +14,7 @@
     <form ng-submit="vm.onSubmit()" name="vm.form" novalidate="">
         <h1>Etat des lieux a distance</h1>
         <formly-form model="vm.inventory" fields="vm.inventoryFields" form="vm.inventoryForm">
-            <button type="submit" class="btn btn-primary submit-button" ng-disabled="vm.form.$invalid">Submit</button>
-            <a id="downloadAnchorElem" style="display:none"></a>
-           <!-- <button type="submit" class="btn btn-primary" ng-disabled="vm.inventoryForm.$invalid">Terminer Saisie</button> -->
-
+         <button type="submit" class="btn btn-primary" ng-disabled="vm.inventoryForm.$invalid">Terminer Saisie</button>
         </formly-form>
     </form>
 </div>
@@ -31,7 +28,7 @@
 <!--<script src="https //ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>-->
 <script src="node_modules/angular-formly/dist/formly.js"></script>
 <script src="node_modules/angular-formly-templates-bootstrap/dist/angular-formly-templates-bootstrap.js"></script>
-<!--<script src="node_modules/angular-ui-bootstrap/ui-bootstrap-tpls.js"></script>-->
+<script src="node_modules/angular-ui-bootstrap/ui-bootstrap-tpls.js"></script>
 
 <!-- Application Scripts -->
 <script src="app.js"></script>
