@@ -4,7 +4,58 @@
 
     'use strict';
 
-    var app = angular.module('formlyApp', ['formly', 'formlyBootstrap']);
+    var app = angular.module('formlyApp', ['formly', 'formlyBootstrap', 'ui.bootstrap'], function config(formlyConfigProvider) {
+        var unique = 1;
+        formlyConfigProvider.setType({
+            name: 'repeatRoomTypes',
+            templateUrl: 'repeatRoomTypes.html',
+            controller: function($scope) {
+                $scope.formOptions = {formState: $scope.formState};
+                $scope.addNew = addNew;
+
+                $scope.copyFields = copyFields;
+
+
+                function copyFields(fields) {
+                    fields = angular.copy(fields);
+                    addRandomIds(fields);
+                    return fields;
+                }
+
+                function addNew() {
+                    $scope.model[$scope.options.key] = $scope.model[$scope.options.key] || [];
+                    var repeatRoomTypes = $scope.model[$scope.options.key];
+                    var lastSection = repeatRoomTypes[repeatRoomTypes.length - 1];
+                    var newsection = {};
+                    if (lastSection) {
+                        newsection = angular.copy(lastSection);
+                    }
+                    repeatRoomTypes.push(newsection);
+                }
+
+                function addRandomIds(fields) {
+                    unique++;
+                    angular.forEach(fields, function(field, index) {
+                        if (field.fieldGroup) {
+                            addRandomIds(field.fieldGroup);
+                            return; // fieldGroups don't need an ID
+                        }
+
+                        if (field.templateOptions && field.templateOptions.fields) {
+                            addRandomIds(field.templateOptions.fields);
+                        }
+
+                        field.id = field.id || (field.key + '_' + index + '_' + unique + getRandomInt(0, 9999));
+                    });
+                }
+
+                function getRandomInt(min, max) {
+                    return Math.floor(Math.random() * (max - min)) + min;
+                }
+            }
+        });
+    });
+
 
     app.run(function(formlyConfig) {
         var attributes = [
@@ -92,6 +143,11 @@
             }
         });
 
+        formlyConfig.setType({
+            name:'inputHTML',
+            templateUrl: 'input.html'
+        });
+
         function camelize(string) {
             string = string.replace(/[\-_\s]+(.)?/g, function(match, chr) {
                 return chr ? chr.toUpperCase() : '';
@@ -107,7 +163,7 @@
 
     app.controller('MainCtrl', function MainCtrl(formlyVersion) {
         var vm = this;
-        // funcation assignment
+        // function assignment
         vm.onSubmit = onSubmit;
 
         // variable assignment
@@ -126,38 +182,34 @@
         };
         vm.options = {};
 
-        vm.fields = [
-            {
-                key: 'date',
-                type: 'datepicker',
-                templateOptions: {
-                    label: 'Date',
-                    type: 'text',
-                    datepickerPopup: 'dd-MMMM-yyyy'
-                }
-            }
-        ];
-
-        vm.fields2 = [
-            {
-                key: 'date',
-                type: 'datepicker',
-                templateOptions: {
-                    label: 'Date',
-                    type: 'text',
-                    datepickerPopup: 'dd-MMMM-yyyy'
-                }
-            }
-        ];
+       // init();
 
         vm.originalFields = angular.copy(vm.fields);
 
         // function definition
         function onSubmit() {
             vm.options.updateInitialValue();
-            alert(JSON.stringify(vm.model), null, 2);
+            alert("weiufbewiuvberw");
+            //   alert(JSON.stringify(vm.model), null, 2);
 
         }
+
+        vm.fields = [
+            {
+                key: 'date_entry',
+                type: 'datepicker',
+                templateOptions: {
+                    label: 'Date',
+                    type: 'text',
+                    datepickerPopup: 'dd-MMMM-yyyy'
+                }
+
+
+            },
+
+
+        ];
+
     });
 
 })();
