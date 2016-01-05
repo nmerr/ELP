@@ -114,159 +114,218 @@
             },
 
             {
-                key: 'inventoryType',
-                type: 'select',
-                templateOptions: {
-                    label: 'Type d' + "'" + 'etat des lieux',
-                    // Call inventoryType script to get a list
-                    options: inventoryType.getinventoryTypes()
-                }
+                className: 'row',
+                fieldGroup: [
+                    {
+                        className: 'col-xs-4',
+                        key: 'inventoryType',
+                        type: 'select',
+                        templateOptions: {
+                            label: 'Type d' + "'" + 'etat des lieux',
+                            // Call inventoryType script to get a list
+                            options: inventoryType.getinventoryTypes()
+                        }
 
+                    },
+                    {
+                        className: 'col-xs-4',
+                        key: 'Adresse_Immeuble',
+                        type: 'input',
+                        templateOptions: {
+                            type: 'text',
+                            label: 'Adresse Immeuble',
+                            placeholder: 'ex: Chemin des Olliquettes 10',
+                            required: false
+                        }
+                    },
+                    {
+                        className: 'col-xs-4',
+                        key: 'postNumber_Immeuble',
+                        type: 'input',
+                        templateOptions: {
+                            type: 'text',
+                            label: 'Numero postal',
+                            placeholder: 'ex: 1213',
+                            required: false
+                        }
+                    }
+                ]
             },
+
             {
-                key: 'Adresse_Immeuble',
-                type: 'input',
-                templateOptions: {
-                    type: 'text',
-                    label: 'Adresse Immeuble',
-                    placeholder: 'ex: Chemin des Olliquettes 10',
-                    required: false
-                }
+                className: 'row',
+                fieldGroup: [
+                    {
+                        className: 'col-xs-4',
+                        key: 'floorNumber',
+                        type: 'select',
+                        templateOptions: {
+                            label: 'Etage',
+                            // Call floorNumber script to get a list
+                            options: floorNumber.getfloorNumber()
+                        }
+                    },
+                    {
+                        className: 'col-xs-4',
+                        key: 'numberOfRoom',
+                        type: 'select',
+                        templateOptions: {
+                            label: 'Nombre de pieces',
+                            // Call numberOfRoom script to get a list
+                            options: numberOfRoom.getnumberOfRoom()
+                        }
+                    }
+                ]
             },
+
             {
-                key: 'postNumber_Immeuble',
-                type: 'input',
-                templateOptions: {
-                    type: 'text',
-                    label: 'Numero postal',
-                    placeholder: 'ex: 1213',
-                    required: false
-                }
+                className: 'row',
+                fieldGroup: [
+                    {
+                        className: 'col-md-6',
+                        key: 'nameNewOccupant',
+                        type: 'input',
+                        templateOptions: {
+                            type: 'text',
+                            label: 'Nom Locataire Entrant',
+                            placeholder: 'ex: Smith',
+                            required: false
+                        }
+                    },
+                    {
+                        className: 'col-md-6',
+                        key: 'firstnameNewOccupant',
+                        type: 'input',
+                        templateOptions: {
+                            type: 'text',
+                            label: 'Prenom Locataire Entrant',
+                            placeholder: 'ex: John',
+                            required: false
+                        }
+                    }
+                ]
             },
+
             {
-                key: 'floorNumber',
-                type: 'select',
-                templateOptions: {
-                    label: 'Etage',
-                    // Call floorNumber script to get a list
-                    options: floorNumber.getfloorNumber()
-                }
+                className: 'row',
+                fieldGroup: [
+                    {
+                        className: 'col-xs-4',
+                        key: 'Email_newOccupant',
+                        type: 'input',
+                        templateOptions: {
+                            type: 'email',
+                            label: 'Email Locataire Entrant',
+                            placeholder: 'Entrez l' + "'" + 'e-mail du nouveau locataire',
+                            required: false
+                        }
+                    },
+                    {
+                        className: 'col-xs-4',
+                        key: 'telephoneNewOccupant',
+                        type: 'input',
+                        templateOptions: {
+                            type: 'number',
+                            label: 'Telephone Locataire entrant',
+                            placeholder: 'ex: 0041 79 544 32 25',
+                            required: false
+                        }
+                    },
+                    {
+                        className: 'col-xs-4',
+                        key: 'entryDateNewOccupant',
+                        type: 'datepicker',
+                        templateOptions: {
+                            type: 'text',
+                            label: 'Date entree nouveau locataire',
+                            datepickerPopup: 'dd-MMMM-yyyy'
+                        }
+                    }
+                ]
             },
+
             {
-                key: 'numberOfRoom',
-                type: 'select',
-                templateOptions: {
-                    label: 'Nombre de pieces',
-                    // Call numberOfRoom script to get a list
-                    options: numberOfRoom.getnumberOfRoom()
-                }
+                className: 'row',
+                fieldGroup: [
+                    {
+                        className: 'col-md-6',
+                        key: 'nameFormerOccupant',
+                        type: 'input',
+                        templateOptions: {
+                            type: 'text',
+                            label: 'Nom Locataire Sortant',
+                            placeholder: 'ex: Smith',
+                            required: false
+                        }
+                    },
+                    {
+                        className: 'col-md-6',
+                        key: 'firstnameFormerOccupant',
+                        type: 'input',
+                        templateOptions: {
+                            type: 'text',
+                            label: 'Prenom Locataire Sortant',
+                            placeholder: 'ex: John',
+                            required: false
+                        }
+                    }
+                ]
             },
+
             {
-                key: 'nameNewOccupant',
-                type: 'input',
-                templateOptions: {
-                    type: 'text',
-                    label: 'Nom Locataire Entrant',
-                    placeholder: 'ex: Smith',
-                    required: false
-                }
+                className: 'row',
+                fieldGroup: [
+                    {
+                        className: 'col-xs-4',
+                        key: 'Email_formerOccupant',
+                        type: 'input',
+                        templateOptions: {
+                            type: 'email',
+                            label: 'Email Locataire Sortant',
+                            placeholder: 'Entrez l' + "'" + 'e-mail du locataire sortant',
+                            required: false
+                        }
+                    },
+                    {
+                        className: 'col-xs-4',
+                        key: 'telephoneFormerOccupant',
+                        type: 'input',
+                        templateOptions: {
+                            type: 'number',
+                            label: 'Telephone Locataire sortant',
+                            placeholder: 'ex: 0041 79 544 32 25',
+                            required: false
+                        }
+                    },
+                    {
+                        className: 'col-xs-4',
+                        key: 'exitDateFormerOccupant',
+                        type: 'datepicker',
+                        templateOptions: {
+                            type: 'text',
+                            label: 'Date de sortie',
+                            datepickerPopup: 'dd-MMMM-yyyy'
+                        }
+                    }
+                ]
             },
+
             {
-                key: 'firstnameNewOccupant',
-                type: 'input',
-                templateOptions: {
-                    type: 'text',
-                    label: 'Prenom Locataire Entrant',
-                    placeholder: 'ex: John',
-                    required: false
-                }
-            },
-            {
-                key: 'Email_newOccupant',
-                type: 'input',
-                templateOptions: {
-                    type: 'email',
-                    label: 'Email Locataire Entrant',
-                    placeholder: 'Entrez l' + "'" + 'e-mail du nouveau locataire',
-                    required: false
-                }
-            },
-            {
-                key: 'telephoneNewOccupant',
-                type: 'input',
-                templateOptions: {
-                    type: 'number',
-                    label: 'Telephone Locataire entrant',
-                    placeholder: 'ex: 0041 79 544 32 25',
-                    required: false
-                }
-            },
-            {
-                key: 'entryDateNewOccupant',
-                type: 'datepicker',
-                templateOptions: {
-                    type: 'text',
-                    label: 'Date entree nouveau locataire',
-                    datepickerPopup: 'dd-MMMM-yyyy'
-                }
-            },
-            {
-                key: 'nameFormerOccupant',
-                type: 'input',
-                templateOptions: {
-                    type: 'text',
-                    label: 'Nom Locataire Sortant',
-                    placeholder: 'ex: Smith',
-                    required: false
-                }
-            },
-            {
-                key: 'firstnameFormerOccupant',
-                type: 'input',
-                templateOptions: {
-                    type: 'text',
-                    label: 'Prenom Locataire Sortant',
-                    placeholder: 'ex: John',
-                    required: false
-                }
-            },
-            {
-                key: 'Email_formerOccupant',
-                type: 'input',
-                templateOptions: {
-                    type: 'email',
-                    label: 'Email Locataire Sortant',
-                    placeholder: 'Entrez l' + "'" + 'e-mail du locataire sortant',
-                    required: false
-                }
-            },
-            {
-                key: 'telephoneFormerOccupant',
-                type: 'input',
-                templateOptions: {
-                    type: 'number',
-                    label: 'Telephone Locataire sortant',
-                    placeholder: 'ex: 0041 79 544 32 25',
-                    required: false
-                }
-            },
-            {
-                key: 'exitDateFormerOccupant',
-                type: 'datepicker',
-                templateOptions: {
-                    type: 'text',
-                    label: 'Date de sortie',
-                    datepickerPopup: 'dd-MMMM-yyyy'
-                }
-            },
-            {
-                key: 'addressFormerOccupant',
-                type: 'input',
-                templateOptions: {
-                    type: 'text',
-                    label: 'Adresse Locataire sortant',
-                    required: false
-                }
+                className: 'row',
+                fieldGroup: [
+
+                    {
+                        className: '',
+                        key: 'addressFormerOccupant',
+                        type: 'textarea',
+                        templateOptions: {
+                            type: 'text',
+                            label: 'Adresse Locataire sortant',
+                            required: false,
+                            rows: '5'
+                        }
+                    }
+                ]
             },
 
             {
@@ -458,6 +517,52 @@
                         //    }
                         //},
                         {
+                            className: 'col-xs-4',
+                            type: 'checkbox',
+                            model: 'formState',
+                            key: 'Kitchen',
+                            templateOptions: {
+                                label: 'Electroménager ?'
+                            }
+                        },
+                        {
+                            hideExpression: '!formState.Kitchen',
+                            fieldGroup: [
+                                {
+                                    type: 'input',
+                                    key: 'relationshipName',
+                                    templateOptions: {
+                                        label: 'Name:'
+                                    }
+                                },
+                                {
+                                    type: 'select',
+                                    key: 'complianceApprover',
+                                    templateOptions: {
+                                        label: 'Compliance Approver:',
+                                        options: [
+                                            {
+                                                name: 'approver 1',
+                                                value: 'some one 1'
+                                            },
+                                            {
+                                                name: 'approver 2',
+                                                value: 'some one 2'
+                                            }]
+                                    }
+                                },
+                                {
+                                    type: 'textarea',
+                                    key: 'requestorComment',
+                                    templateOptions: {
+                                        label: 'Requestor Comment',
+                                        rows: 4
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            className: 'col-xs-4',
                             type: 'checkbox',
                             model: 'formState',
                             key: 'Kitchen',
@@ -506,9 +611,7 @@
 
             },
 
-            {
-
-            },
+            {},
 
 
         ];
