@@ -718,7 +718,7 @@
                                         type: 'text',
                                         label: 'Commentaire',
                                         placeholder: 'Commentaire',
-                                        rows:'5',
+                                        rows: '5',
                                         required: false
 
                                     }
