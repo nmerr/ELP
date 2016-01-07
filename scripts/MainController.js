@@ -526,39 +526,203 @@
                             }
                         },
                         {
-                            hideExpression: '!formState.Kitchen',
+                            className: 'row',
                             fieldGroup: [
                                 {
+                                    hideExpression: '!formState.Kitchen',
+                                    fieldGroup: [
+                                        {
+                                            className: 'col-xs-4',
+                                            key: 'Ventillation',
+                                            type: 'select',
+                                            templateOptions: {
+                                                label: 'Ventillation',
+                                                options: stateOfStuff.getStateOfStuff()
+
+                                            }
+                                        },
+
+                                        {
+                                            className: 'col-xs-4',
+                                            key: 'Faiences',
+                                            type: 'select',
+                                            templateOptions: {
+                                                label: 'Faiences',
+                                                options: stateOfStuff.getStateOfStuff()
+
+                                            }
+                                        },
+
+                                        {
+                                            className: 'col-xs-4',
+                                            key: 'Ecoulement',
+                                            type: 'select',
+                                            templateOptions: {
+                                                label: 'Ecoulement',
+                                                options: stateOfStuff.getStateOfStuff()
+
+                                            }
+                                        }
+                                    ]
+                                },
+
+                                {
+                                    className: 'row',
+                                    fieldGroup: [
+
+                                        {
+                                            className: 'col-xs-4',
+                                            key: 'Robinetterie',
+                                            type: 'select',
+                                            templateOptions: {
+                                                label: 'Robinetterie',
+                                                options: stateOfStuff.getStateOfStuff()
+
+                                            }
+                                        },
+
+                                        {
+                                            className: 'col-xs-4',
+                                            key: 'Bouchon',
+                                            type: 'select',
+                                            templateOptions: {
+                                                label: 'Bouchon',
+                                                options: stateOfStuff.getStateOfStuff()
+
+                                            }
+                                        },
+
+                                        {
+                                            className: 'col-xs-4',
+                                            key: 'Four',
+                                            type: 'select',
+                                            templateOptions: {
+                                                label: 'Four',
+                                                options: stateOfStuff.getStateOfStuff()
+
+                                            }
+                                        }
+                                    ]
+                                },
+
+                                {
+                                    className: 'row',
+                                    fieldGroup: [
+
+                                        {
+                                            className: 'col-xs-4',
+                                            key: 'Plaques',
+                                            type: 'select',
+                                            templateOptions: {
+                                                label: 'Plaques',
+                                                options: stateOfStuff.getStateOfStuff()
+
+                                            }
+                                        },
+
+                                        {
+                                            className: 'col-xs-4',
+                                            key: 'Evier',
+                                            type: 'select',
+                                            templateOptions: {
+                                                label: 'Evier',
+                                                options: stateOfStuff.getStateOfStuff()
+
+                                            }
+                                        },
+
+                                        {
+                                            className: 'col-xs-4',
+                                            key: 'Poubelle',
+                                            type: 'select',
+                                            templateOptions: {
+                                                label: 'Poubelle',
+                                                options: stateOfStuff.getStateOfStuff()
+
+                                            }
+                                        }
+                                    ]
+                                },
+
+                                {
+                                    className: 'row',
+                                    fieldGroup: [
+
+                                        {
+                                            className: 'col-xs-4',
+                                            key: 'LaveVaisselle',
+                                            type: 'select',
+                                            templateOptions: {
+                                                label: 'Lave Vaisselle',
+                                                options: stateOfStuff.getStateOfStuff()
+
+                                            }
+                                        },
+
+                                        {
+                                            className: 'col-xs-4',
+                                            key: 'MicroOndes',
+                                            type: 'select',
+                                            templateOptions: {
+                                                label: 'Micro Ondes',
+                                                options: stateOfStuff.getStateOfStuff()
+
+                                            }
+                                        },
+
+                                        {
+                                            className: 'col-xs-4',
+                                            key: 'Frigos',
+                                            type: 'select',
+                                            templateOptions: {
+                                                label: 'Frigos',
+                                                options: stateOfStuff.getStateOfStuff()
+
+                                            }
+                                        }
+                                    ]
+                                },
+
+                                {
+                                    className: 'row',
+                                    fieldGroup: [
+
+                                        {
+                                            className: 'col-xs-4',
+                                            key: 'Hotte',
+                                            type: 'select',
+                                            templateOptions: {
+                                                label: 'Hotte',
+                                                options: stateOfStuff.getStateOfStuff()
+
+                                            }
+                                        },
+
+                                        {
+                                            className: 'col-xs-4',
+                                            key: 'Congelateur',
+                                            type: 'select',
+                                            templateOptions: {
+                                                label: 'Congelateur',
+                                                options: stateOfStuff.getStateOfStuff()
+
+                                            }
+                                        }
+                                    ]
+                                },
+
+                                {
+                                    key: 'Commentaire',
                                     type: 'input',
-                                    key: 'relationshipName',
                                     templateOptions: {
-                                        label: 'Name:'
+                                        type: 'text',
+                                        label: 'Commentaire',
+                                        placeholder: 'Commentaire',
+                                        rows:'5',
+                                        required: false
+
                                     }
                                 },
-                                {
-                                    type: 'select',
-                                    key: 'complianceApprover',
-                                    templateOptions: {
-                                        label: 'Compliance Approver:',
-                                        options: [
-                                            {
-                                                name: 'approver 1',
-                                                value: 'some one 1'
-                                            },
-                                            {
-                                                name: 'approver 2',
-                                                value: 'some one 2'
-                                            }]
-                                    }
-                                },
-                                {
-                                    type: 'textarea',
-                                    key: 'requestorComment',
-                                    templateOptions: {
-                                        label: 'Requestor Comment',
-                                        rows: 4
-                                    }
-                                }
                             ]
                         },
                         {
