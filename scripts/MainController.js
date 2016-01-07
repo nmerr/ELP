@@ -12,7 +12,110 @@
 
         var vm = this;
 
+<<<<<<< HEAD
         var jsonFile;
+=======
+        // Model object referenced in index.html
+        vm.inventory = {};
+
+
+
+
+
+//==================================================================
+//Début Fonction suite pression bouton
+//==================================================================
+
+        function onSubmit() {
+            //alert(JSON.stringify(vm.inventory.Email_rr));
+
+            //======================================================
+            //                 Debut  Enregistrement Variable
+            //======================================================
+            valEmailCol = vm.inventory.Email_rr;
+            valImmNum = vm.inventory.No_Immeuble;
+            valObjNum = vm.inventory.No_objet;
+            valSeqNum = vm.inventory.No_Sequence;
+            valGroupe = vm.inventory.Groupe;
+            valInAssTech = vm.inventory.Init_Ass_Tech;
+            valInvType = vm.inventory.inventoryType;
+            valAdrImm = vm.inventory.Adresse_Immeuble;
+            valPostNumber = vm.inventory.postNumber_Immeuble;
+            valflNumber = vm.inventory.floorNumber;
+            valNumRoom = vm.inventory.numberofRoom;
+            valNameNOcc = vm.inventory.nameNewOccupant;
+            valFsNameNOcc = vm.inventory.firstnameNewOccupant;
+            valEmailNOcc = vm.inventory.Email_newOccupant;
+            valTelNOcc = vm.inventory.telephoneNewOccupant;
+            valEnDatNOcc = vm.inventory.entryDateNewOccupant;
+            valNamForOcc = vm.inventory.nameFormerOccupant;
+            valFirNamForOcc = vm.inventory.firstnameFormerOccupant;
+            valEmailForOcc = vm.inventory.Email_formerOccupant;
+            valTelForOcc = vm.inventory.telephoneFormerOccupant;
+            valExDatForOcc = vm.inventory.exitDateFormerOccupant;
+            valAdrForOcc = vm.inventory.adressFormerOccupant;
+            valTypeOfRoomPi1 = vm.inventory.TypeofRoomPi1;
+
+            //======================================================
+            //                 Fin  Enregistrement Variables
+            //======================================================
+
+                txtjsondatas = "'{\"Datas\" : ['{\"Email Collaborateur\":"+valEmailCol+"}]}'";
+
+            //alert(txtjsondatas);
+
+//=================================La Syntaxe semble incorrect=====================
+
+            /*txtjsondatas = '{ "employees":['+
+                    '{"Email Collaborateur": '+valEmailCol+'},'+
+                    '{"Numero Immeuble": '+ valImmNum+'},';*/
+
+//==================================================================================
+         /*   txtjsondatas = '{ "employees" : [' +                            //Uniquement pour le test
+                '{ "firstName":"John" , "lastName":"Doe" },' +              //Uniquement pour le test
+                '{ "firstName":"Anna" , "lastName":"Smith" },' +            //Uniquement pour le test
+                '{ "firstName":"Peter" , "lastName":"Jones" } ]}';          //Uniquement pour le test*/
+
+
+
+            var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(txtjsondatas));
+            var dlAnchorElem = document.getElementById('downloadAnchorElem');
+            dlAnchorElem.setAttribute("href",     dataStr     );
+            dlAnchorElem.setAttribute("download", "scene.json");
+            dlAnchorElem.click();
+
+            /*
+            obj = {a: 123, b: "4 5 6"};
+            var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(obj));
+
+            $('<a href="data:' + data + '" download="data.json">download JSON</a>').appendTo('#container');
+
+
+
+
+              valobjjson = JSON.parse(txtjsondatas);
+
+            alert(valobjjson);
+
+            saveProce = document.createElement('saveProce');
+            saveProce.download = "backup.json";
+            saveProce.href = url;
+            saveProce.textContent = "Download backup.json";
+
+            document.getElementById('content').appendChild(saveProce);*/
+
+
+
+           /* if(!valobjjson){
+                alert("No Datas");
+            }
+
+            var filename = 'download.json';
+
+            if(typeof valobjjson === 'object'){
+                valobjjson = JSON.strigify(objson, undefined ,2);
+            }
+>>>>>>> 7b9b7c08c616241b6113c09b54c01b98af5e7c4e
 
         vm.onSubmit = export2Json;
 
