@@ -339,7 +339,7 @@
                                 fieldGroup: [
                                     {
 
-                                        key: 'TypeofRoomPi1',
+                                        key: 'TypeofRoom',
                                         type: 'select',
                                         templateOptions: {
                                             label: 'Type de pieces',
@@ -347,13 +347,26 @@
                                         }
                                     },
                                     {
-                                        className: 'col-xs-4',
+                                        className: 'col-xs-6 col-md-4',
                                         key: 'EtatPlafond',
                                         type: 'select',
                                         templateOptions: {
                                             label: 'Plafond',
                                             options: stateOfStuff.getStateOfStuff(),
                                             hide: '!(model.TypeofRoom === )'
+                                        }
+                                    },
+                                    {
+                                        className: 'col-xs-12 col-sm-6 col-md-8',
+                                        key: 'EtatPlafondCommentaire',
+                                        type: 'textarea',
+                                        templateOptions: {
+                                            type: 'text',
+                                            label: 'Commentaire',
+                                            required: false,
+                                            rows: '1'
+
+
                                         }
                                     },
                                     {
@@ -568,6 +581,7 @@
 
                                     {
                                         className: 'row',
+                                        hideExpression: '!formState.Kitchen',
                                         fieldGroup: [
 
                                             {
@@ -607,6 +621,7 @@
 
                                     {
                                         className: 'row',
+                                        hideExpression: '!formState.Kitchen',
                                         fieldGroup: [
 
                                             {
@@ -646,6 +661,7 @@
 
                                     {
                                         className: 'row',
+                                        hideExpression: '!formState.Kitchen',
                                         fieldGroup: [
 
                                             {
@@ -685,6 +701,7 @@
 
                                     {
                                         className: 'row',
+                                        hideExpression: '!formState.Kitchen',
                                         fieldGroup: [
 
                                             {
@@ -713,6 +730,7 @@
 
                                     {
                                         key: 'Commentaire',
+                                        hideExpression: '!formState.Kitchen',
                                         type: 'input',
                                         templateOptions: {
                                             type: 'text',
@@ -729,42 +747,45 @@
                                 className: 'col-xs-4',
                                 type: 'checkbox',
                                 model: 'formState',
-                                key: 'Kitchen',
+                                key: 'Bathroom',
                                 templateOptions: {
-                                    label: 'Electroménager ?'
+                                    label: 'Accessoires ?'
                                 }
                             },
                             {
-                                hideExpression: '!formState.Kitchen',
+                                className: 'row',
+                                hideExpression: '!formState.Bathroom',
                                 fieldGroup: [
+                                    //{
+                                    //    type: 'input',
+                                    //    key: 'relationshipName',
+                                    //    templateOptions: {
+                                    //        label: 'Name:'
+                                    //    }
+                                    //},
                                     {
-                                        type: 'input',
-                                        key: 'relationshipName',
-                                        templateOptions: {
-                                            label: 'Name:'
-                                        }
-                                    },
-                                    {
+                                        className: 'col-xs-4',
                                         type: 'select',
-                                        key: 'complianceApprover',
+                                        key: 'AccessoriesInventory',
                                         templateOptions: {
-                                            label: 'Compliance Approver:',
+                                            label: 'Accessoires:',
                                             options: [
                                                 {
-                                                    name: 'approver 1',
-                                                    value: 'some one 1'
+                                                    name: 'Stores électriques',
+                                                    value: 'storeElec'
                                                 },
                                                 {
-                                                    name: 'approver 2',
-                                                    value: 'some one 2'
+                                                    name: 'Chauffage électrique',
+                                                    value: 'chauffageElec'
                                                 }]
                                         }
                                     },
                                     {
+                                        className: 'col-xs-4',
                                         type: 'textarea',
-                                        key: 'requestorComment',
+                                        key: 'AccessoriesComment',
                                         templateOptions: {
-                                            label: 'Requestor Comment',
+                                            label: 'Notes additionnelles ',
                                             rows: 4
                                         }
                                     }
@@ -774,9 +795,6 @@
                     }
 
                 },
-
-                {},
-
 
             ];
 
