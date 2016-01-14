@@ -1490,7 +1490,345 @@
                                                 }
                                             },
 
-                                            //======Fin Saisie Lavabo ======================
+                                            //======Fin Saisie Bidet ======================
+                                            //======= Début Saisie Robinetterie Bidet===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatRobinetterieBidet',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Robinetterie Bidet',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatRobinetterieBidetCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Robinetterie Bidet ======================
+                                            //======= Début Saisie Cuvette WC==================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatCuvetteWC',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Cuvette WC',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatCuvetteWCCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Cuvette WC ======================
+
+                                            //======= Début Saisie Siege===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatSiege',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Siège',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatSiegeCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Siege ======================
+
+                                            //======= Début Saisie Réservoir d'eau===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatReservoirEau',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Réservoir d\'eau',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatReservoirEauCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Réservoir d'eau ======================
+
+                                            //======= Début Saisie Porte Papier===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatPortePapier',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Porte papier',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatPortePapierCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Porte Papier ======================
+
+                                            //======= Début Saisie Pharmacie===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatPharmacie',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Pharmacie',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatPharmacieCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Pharmacie ======================
+
+                                            //======= Début Saisie Glace===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatGlace',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Glace',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatGlaceCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Glace ======================
+
+                                            //======= Début Saisie Porte Verres===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatPorteVerres',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Porte Verres',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatPorteVerresCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Portes Verres ======================
+
+                                            //======= Début Saisie Porte Savon===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatPorteSavon',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Porte Savon',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatPorteSavonCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Porte Savon ======================
+
+                                            //======= Début Saisie Eclairage===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatEclairage',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Eclairage',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EclairageCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Eclairage ======================
+
+                                            //======= Début Saisie Porte Linge===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatPorteLinge',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Porte-linge',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatPorteLingeCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Porte Linge ======================
+
+                                            //======= Début Saisie Bouchon===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatBouchon',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Bouchon',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatBouchonCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Bouchon======================
+
+
+
+
 
                                         ]
                                     },
@@ -1641,6 +1979,341 @@
 
                                             //======Fin Saisie Glace ======================
 
+                                            //======= Début Saisie Lavabo===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatLavabo',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Lavabo',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatLavaboCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //==================Fin saisie Lavabo=======================
+
+                                            //======= Début Saisie Robinnetterie Lavabo===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatRobinetterieLavabo',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Robinetterie Lavabo',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatRobinetterieLavaboCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //==================Fin saisie RobinetterieLavabo=======================
+
+                                            //======= Début Saisie Cuvette WC===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatCuvetteWC',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Cuvette WC',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatCuvetteWCCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //==================Fin saisie Cuvette WC=======================
+
+                                            //======= Début Saisie Siège===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatSiege',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Siège',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatSiegeCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //==================Fin saisie Siège=======================
+
+                                            //======= Début Saisie Reservoir d'eau===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatReservoirEau',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Réservoir d\'eau',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatReservoirEauCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //==================Fin saisie Réservoir d'eau=======================
+
+                                            //======= Début Saisie Porte Papier===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatPortePapier',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Porte Papier',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatPortePapierCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //==================Fin saisie Porte Papier=======================
+
+                                            //======= Début Saisie Ecoulement===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatEcoulement',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Ecoulement',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatEcoulementCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //==================Fin saisie Ecoulement=======================
+
+                                            //======= Début Saisie Tablette===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatTablette',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Tablette',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatTabletteCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //==================Fin saisie Tablette=======================
+
+                                            //======= Début Saisie Porte-Savon===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatPorteSavon',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'PorteSavon',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatPorteSavonCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //==================Fin saisie Porte-Savon=======================
+
+                                            //======= Début Saisie INterrupteurs===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatInterrupteurs',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Interrupteurs',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatInterrupteursCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //==================Fin saisie Interrupteurs=======================
+
+                                            //======= Début Saisie Eclairage===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatEclairage',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Eclairage',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatEclairageCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //==================Fin saisie Eclairage=======================
+
+                                            //======= Début Saisie Bac===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatBac',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Bac',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatBacCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //==================Fin saisie Bac=======================
 
                                         ]
                                     },
@@ -1662,6 +2335,19 @@
                                     {
                                         hideExpression: '!formState.Bedroom',
                                         fieldGroup: [
+
+                                            {
+                                                className: '',
+                                                key: 'NomChambre',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Nom de la Pièce',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
 
                                             //=========Dàbut saisi Prise TV=============
 
@@ -1717,6 +2403,33 @@
                                             },
 
                                             //======Fin Saisie Balcon ======================
+                                            //======= Début Saisie Tenture===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatTenture',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Tenture',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatTentureCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Tenture ======================
 
 
                                         ]
@@ -1793,6 +2506,62 @@
                                             },
 
                                             //======Fin Saisie Balcon ======================
+                                            //======= Début Saisie Tenture===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatTenture',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Tenture',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatTentureCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Tenture ======================
+
+                                            //======= Début Saisie Cheminée===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatCheminee',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Cheminée',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatChemineeCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Cheminée ======================
+
 
 
                                         ]
@@ -1867,6 +2636,35 @@
                                             },
 
                                             //======Fin Saisie Balcon ======================
+
+                                            //======= Début Saisie Tenture===================
+
+                                            {
+                                                className: 'col-xs-6 col-md-4',
+                                                key: 'EtatTenture',
+                                                type: 'select',
+                                                templateOptions: {
+                                                    label: 'Tenture',
+                                                    options: stateOfStuff.getStateOfStuff()
+
+                                                }
+                                            },
+
+                                            {
+                                                className: 'col-xs-12 col-sm-6 col-md-8',
+                                                key: 'EtatTentureCommentaire',
+                                                type: 'textarea',
+                                                templateOptions: {
+                                                    type: 'text',
+                                                    label: 'Commentaire',
+                                                    required: false,
+                                                    rows: '1'
+
+                                                }
+                                            },
+
+                                            //======Fin Saisie Tenture ======================
+
 
 
                                         ]

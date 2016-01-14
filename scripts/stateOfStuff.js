@@ -12,10 +12,7 @@
             return [
 
 
-                {
-                    "name":"Neant",
-                    "state":"State_Neant"
-                },
+
                 {
                     "name":"A Neuf",
                     "state":"State_Neuf"
@@ -39,6 +36,10 @@
                 {
                     "name":"Legerement defraichi",
                     "state":"State_Leg_Defraichi"
+                },
+                {
+                    "name":"Neant",
+                    "state":"State_Neant"
                 },
 
 
