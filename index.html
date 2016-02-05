@@ -8,11 +8,13 @@
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
+
 </head>
 <body ng-app="formlyApp" ng-controller="MainController as vm">
 
 
 <!-- Application Dependencies -->
+<script src="http://mrrio.github.io/jsPDF/dist/jspdf.debug.js"></script>
 <script src="node_modules/api-check/dist/api-check.js"></script>
 <script src="node_modules/angular/angular.js"></script>
 <script src="node_modules/angular-ui-bootstrap/ui-bootstrap-tpls.js"></script>
@@ -29,6 +31,11 @@
 <script src="scripts/dependanceTypes.js"></script>
 <script src="scripts/stateOfStuff.js"></script>
 <script src="scripts/roomTypes.js"></script>
+<script src="scripts/kindWall.js"></script>
+<script src="scripts/kindRoof.js"></script>
+<script src="scripts/kindStore.js"></script>
+<script src="scripts/kindGround.js"></script>
+
 
 <script type="text/ng-template" id="input.html">
     <pre ng-repeat="(key, val) in this">$scope.{{key}} = {{ val | json }} </pre>
@@ -57,7 +64,7 @@
         <formly-form model="vm.inventory" fields="vm.inventoryFields" form="vm.inventoryForm" options="vm.options">
             <button type="submit" class="btn btn-primary submit-button" ng-disabled="vm.form.$invalid"
                     ng-click="vm.submit(vm.inventory)">Terminer Saisie
-            </button>
+            </button><a id="downloadAnchorElem" style="diplay:yes"></a>
             <button type="button" class="btn btn-default" ng-click="vm.options.resetModel()">Reset</button>
         </formly-form>
     </form>

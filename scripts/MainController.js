@@ -8,7 +8,7 @@
             .module('formlyApp')
             .controller('MainController', MainController);
 
-        function MainController(inventoryType, floorNumber, numberOfRoom, roomTypes, stateOfStuff) {
+        function MainController(inventoryType, floorNumber, numberOfRoom, roomTypes, stateOfStuff, kindWall, kindRoof,kindStore,kindGround) {
 
             var vm = this;
 
@@ -18,7 +18,125 @@
 
             function export2Json() {
                 jsonFile = JSON.stringify(vm.inventory), null, "\t";
-                alert(jsonFile);
+                //alert(jsonFile);
+
+
+
+                saveJsonToFile();
+                createPDF();
+
+            }
+
+            function saveJsonToFile(){
+
+                var dataStr = "data:/text/json;charset=utf-8"+
+                    encodeURIComponent(jsonFile);
+
+                var dlAnchorElem = document.getElementById('downloadAnchorElem');
+                dlAnchorElem.setAttribute("href", dataStr);
+                dlAnchorElem.setAttribute("download","scene.json");
+                dlAnchorElem.click();
+
+                var myWindow = window.open("","MsgWindow");
+                myWindow.document.write("<p>"+jsonFile+"</p>");
+
+
+            }
+
+            function createPDF(){
+                var doc = new jsPDF();
+               /* var dateofDay = new Date();
+                var nameoffile;
+                var DateLocIn;*/
+
+                doc.setFontSize(8);
+                doc.setFont("helvetica");
+
+                //nameoffile =dateofDay.getDate();
+
+                //DateLocIn = JSON.stringify(vm.inventory.entryDateNewOccupant);
+
+                //alert(DateLocIn);
+
+                doc.setFontSize(22);
+                doc.text(80,30,"Etat des Lieux");
+                doc.setFontSize(8);
+                doc.setFontType("bold");
+                doc.text(20,40, 'Mail du Collaborateur :');
+                doc.setFontType("normal");
+                doc.text(55,40, vm.inventory.Email_rr);
+                doc.setFontType("bold");
+                doc.text(110,40,"Numéro d'immeuble :");
+                doc.setFontType("normal");
+                doc.text(145,40,vm.inventory.No_Immeuble);
+                doc.setFontType("bold");
+                doc.text(20,45,"Numéro d'objet:");
+                doc.setFontType("normal");
+                doc.text(55,45,vm.inventory.No_objet);
+                doc.setFontType("bold");
+                doc.text(110,45,"Numéro de séquence:");
+                doc.setFontType("normal");
+                doc.text(145,45,vm.inventory.No_Sequence);
+                doc.setFontType("bold");
+                doc.text(20,50,"Groupe :");
+                doc.setFontType("normal");
+                doc.text(55,50,vm.inventory.Groupe);
+                doc.setFontType("bold");
+                doc.text(110,50,"Initiales Ass. Tech:");
+                doc.setFontType("normal");
+                doc.text(145,50,vm.inventory.Init_Ass_Tech);
+                doc.setFontType("bold");
+                doc.text(20,55,"Type Etat des Lieux :");
+                doc.setFontType("normal");
+                doc.text(55,55,vm.inventory.inventoryType);
+                doc.setFontType("bold");
+                doc.text(110,55,"Adresse de l'immeuble :");
+                doc.setFontType("normal");
+                doc.text(145,55,vm.inventory.Adresse_Immeuble);
+
+                doc.setFontType("bold");
+                doc.text(20,60,"Numéro Postale:");
+                doc.setFontType("normal");
+                doc.text(55,60,vm.inventory.postNumber_Immeuble);
+                doc.setFontType("bold");
+                doc.text(110,60,"Etage :");
+                doc.setFontType("normal");
+                doc.text(145,60,vm.inventory.floorNumber);
+
+                doc.setFontType("bold");
+                doc.text(20,65,"Nombre de Pièces :");
+                doc.setFontType("normal");
+                doc.text(55,65,vm.inventory.numberOfRoom);
+                doc.setFontType("bold");
+                doc.text(110,65,"Nom Locataire Entrant :");
+                doc.setFontType("normal");
+                doc.text(145,65,vm.inventory.nameNewOccupant);
+
+                doc.setFontType("bold");
+                doc.text(20,70,"Prenom Locataire Entrant :");
+                doc.setFontType("normal");
+                doc.text(55,70,vm.inventory.firstnameNewOccupant);
+                doc.setFontType("bold");
+                doc.text(110,70,"Email Locataire Entrant");
+                doc.setFontType("normal");
+                doc.text(145,70,vm.inventory.Email_newOccupant);
+
+                /*doc.setFontType("bold");
+                doc.text(20,110,"Téléphone Locataire Entrant");
+                doc.setFontType("normal");
+                doc.text(55,110,vm.inventory.telephoneNewOccupant);*/
+
+
+                /*doc.setFontType("bold");
+                doc.text(110,110,"Date Entree Nouveau Locataire");
+                doc.setFontType("normal");
+                doc.text(145,110,DateLocIn);*/
+
+
+                //var SigImg = document.getElementById("sig-image");
+                //08doc.addImage(SigImg, 'png', 20, 20, 100, 40)
+
+                doc.output('datauri');
 
             }
 
@@ -348,7 +466,7 @@
                                     },
                                     //===============Champs Plafond=================
                                     {
-                                        className: 'col-xs-6 col-md-4',
+                                        className: 'col-xs-3 col-md-3',
                                         key: 'EtatPlafond',
                                         type: 'select',
                                         templateOptions: {
@@ -358,7 +476,17 @@
                                         }
                                     },
                                     {
-                                        className: 'col-xs-12 col-sm-6 col-md-8',
+                                        className: 'col-xs-3 col-md-3',
+                                        key: 'TypePlafond',
+                                        type: 'select',
+                                        templateOptions: {
+                                            label: 'Revêtement Plafond',
+                                            options: kindRoof.getkindRoof(),
+                                            hide: '!(model.TypeofRoom === )'
+                                        }
+                                    },
+                                    {
+                                        className: 'col-xs-10 col-sm-6 col-md-6',
                                         key: 'EtatPlafondCommentaire',
                                         type: 'textarea',
                                         templateOptions: {
@@ -375,7 +503,7 @@
                                     //=============Champs Murs ====================
 
                                     {
-                                        className: 'col-xs-6 col-md-4',
+                                        className: 'col-xs-3 col-md-3',
                                         key: 'EtatMurs',
                                         type: 'select',
                                         templateOptions: {
@@ -385,7 +513,18 @@
                                         }
                                     },
                                     {
-                                        className: 'col-xs-12 col-sm-6 col-md-8',
+                                        className: 'col-xs-3 col-md-3',
+                                        key: 'TypeMurs',
+                                        type: 'select',
+                                        templateOptions: {
+                                            label: 'Revêtement Murs',
+                                            options: kindWall.getkindWall(),
+                                            hide: '!(model.TypeofRoom === )'
+                                        }
+                                    },
+
+                                    {
+                                        className: 'col-xs-10 col-sm-6 col-md-6',
                                         key: 'EtatMursCommentaire',
                                         type: 'textarea',
                                         templateOptions: {
@@ -403,7 +542,7 @@
                                     //=============Champs Sol ======================
 
                                     {
-                                        className: 'col-xs-6 col-md-4',
+                                        className: 'col-xs-3 col-md-3',
                                         key: 'EtatSol',
                                         type: 'select',
                                         templateOptions: {
@@ -413,7 +552,17 @@
                                         }
                                     },
                                     {
-                                        className: 'col-xs-12 col-sm-6 col-md-8',
+                                        className: 'col-xs-3 col-md-3',
+                                        key: 'TypeSol',
+                                        type: 'select',
+                                        templateOptions: {
+                                            label: 'Type de Sol',
+                                            options: kindGround.getkindGround(),
+                                            hide: '!(model.TypeofRoom === )'
+                                        }
+                                    },
+                                    {
+                                        className: 'col-xs-10 col-sm-6 col-md-6',
                                         key: 'EtatSolCommentaire',
                                         type: 'textarea',
                                         templateOptions: {
@@ -687,7 +836,7 @@
                                     //==========Champs Stores =======================
 
                                     {
-                                        className: 'col-xs-6 col-md-4',
+                                        className: 'col-xs-3 col-md-3',
                                         key: 'EtatStores',
                                         type: 'select',
                                         templateOptions: {
@@ -697,7 +846,17 @@
                                         }
                                     },
                                     {
-                                        className: 'col-xs-12 col-sm-6 col-md-8',
+                                        className: 'col-xs-3 col-md-3',
+                                        key: 'TypeStore',
+                                        type: 'select',
+                                        templateOptions: {
+                                            label: 'Type de Store',
+                                            options: kindStore.getkindStore(),
+                                            hide: '!(model.TypeofRoom === )'
+                                        }
+                                    },
+                                    {
+                                        className: 'col-xs-10 col-sm-6 col-md-6',
                                         key: 'EtatStoresCommentaire',
                                         type: 'textarea',
                                         templateOptions: {
@@ -1234,7 +1393,7 @@
                                                 key: 'EtatBalcon',
                                                 type: 'select',
                                                 templateOptions: {
-                                                    label: 'Plaques',
+                                                    label: 'Balcon',
                                                     options: stateOfStuff.getStateOfStuff()
 
                                                 }
@@ -1255,33 +1414,7 @@
 
                                             //======Fin Saisie Plaques ======================
 
-                                            //======= Début Saisie Plaques===================
 
-                                            {
-                                                className: 'col-xs-6 col-md-4',
-                                                key: 'EtatTenture',
-                                                type: 'select',
-                                                templateOptions: {
-                                                    label: 'Tenture',
-                                                    options: stateOfStuff.getStateOfStuff()
-
-                                                }
-                                            },
-
-                                            {
-                                                className: 'col-xs-12 col-sm-6 col-md-8',
-                                                key: 'EtatTentureCommentaire',
-                                                type: 'textarea',
-                                                templateOptions: {
-                                                    type: 'text',
-                                                    label: 'Commentaire',
-                                                    required: false,
-                                                    rows: '1'
-
-                                                }
-                                            },
-
-                                            //======Fin Saisie Plaques ======================
 
                                         ]
                                     },

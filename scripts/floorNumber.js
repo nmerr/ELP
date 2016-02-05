@@ -12,131 +12,131 @@
             return [
                 {
                     "name": "SS",
-                    "value":"floor_SS"
+                    "value":"SS"
                 },
                 {
                     "name":"REZ",
-                    "value":"floor_REZ"
+                    "value":"REZ"
                 },
                 {
                     "name":"1",
-                    "value":"floor_1"
+                    "value":"1"
                 },
                 {
                     "name":"2",
-                    "value":"floor_2"
+                    "value":"2"
                 },
                 {
                     "name":"3",
-                    "value":"floor_3"
+                    "value":"3"
                 },
                 {
                     "name":"4",
-                    "value":"floor_4"
+                    "value":"4"
                 },
                 {
                     "name":"5",
-                    "value":"floor_5"
+                    "value":"5"
                 },
                 {
                     "name":"6",
-                    "value":"floor_6"
+                    "value":"6"
                 },
                 {
                     "name":"7",
-                    "value":"floor_7"
+                    "value":"7"
                 },
                 {
                     "name":"8",
-                    "value":"floor_8"
+                    "value":"8"
                 },
                 {
                     "name":"9",
-                    "value":"floor_9"
+                    "value":"9"
                 },
                 {
                     "name":"10",
-                    "value":"floor_10"
+                    "value":"10"
                 },
                 {
                     "name":"11",
-                    "value":"floor_11"
+                    "value":"11"
                 },
                 {
                     "name":"12",
-                    "value":"floor_12"
+                    "value":"12"
                 },
                 {
                     "name":"13",
-                    "value":"floor_13"
+                    "value":"13"
                 },
                 {
                     "name":"14",
-                    "value":"floor_14"
+                    "value":"14"
                 },
                 {
                     "name":"15",
-                    "value":"floor_15"
+                    "value":"15"
                 },
                 {
                     "name":"16",
-                    "value":"floor_16"
+                    "value":"16"
                 },
                 {
                     "name":"17",
-                    "value":"floor_17"
+                    "value":"17"
                 },
                 {
                     "name":"18",
-                    "value":"floor_18"
+                    "value":"18"
                 },
                 {
                     "name":"19",
-                    "value":"floor_19"
+                    "value":"19"
                 },
                 {
                     "name":"20",
-                    "value":"floor_20"
+                    "value":"20"
                 },
                 {
                     "name":"21",
-                    "value":"floor_21"
+                    "value":"21"
                 },
                 {
                     "name":"22",
-                    "value":"floor_22"
+                    "value":"22"
                 },
                 {
                     "name":"23",
-                    "value":"floor_23"
+                    "value":"23"
                 },
                 {
                     "name":"24",
-                    "value":"floor_24"
+                    "value":"24"
                 },
                 {
                     "name":"25",
-                    "value":"floor_25"
+                    "value":"25"
                 },
                 {
                     "name":"26",
-                    "value":"floor_26"
+                    "value":"26"
                 },
                 {
                     "name":"27",
-                    "value":"floor_27"
+                    "value":"27"
                 },
                 {
                     "name":"28",
-                    "value":"floor_28"
+                    "value":"28"
                 },
                 {
                     "name":"29",
-                    "value":"floor_29"
+                    "value":"29"
                 },
                 {
                     "name":"30",
-                    "value":"floor_30"
+                    "value":"30"
                 },
              ];
         }
