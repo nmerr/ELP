@@ -45,16 +45,20 @@
 
             function createPDF(){
                 var doc = new jsPDF();
-               /* var dateofDay = new Date();
+                var dateofDay = new Date();
                 var nameoffile;
-                var DateLocIn;*/
+                var DateLocIn;
+                var txtDateLocIn;
 
                 doc.setFontSize(8);
                 doc.setFont("helvetica");
 
                 //nameoffile =dateofDay.getDate();
 
-                //DateLocIn = JSON.stringify(vm.inventory.entryDateNewOccupant);
+                //DateLocIn = String(vm.inventory.entryDateNewOccupant);
+                //txtDateLocIn = DateLocIn.slice(7,DateLocIn.length);
+                //alert(txtDateLocIn);
+
 
                 //alert(DateLocIn);
 
