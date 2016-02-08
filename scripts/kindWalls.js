@@ -7,7 +7,7 @@
 
     angular
         .module('formlyApp')
-        .factory('kindWall', kindWall);
+        .factory('kindWalls', kindWalls);
 
     function kindWalls() {
         function getkindWalls() {
