@@ -9,8 +9,8 @@
         .module('formlyApp')
         .factory('kindWall', kindWall);
 
-    function kindWall() {
-        function getkindWall() {
+    function kindWalls() {
+        function getkindWalls() {
             return [
                 {
                     "name": "Papier peint",
@@ -32,7 +32,7 @@
         }
 
         return {
-            getkindWall: getkindWall
+            getkindWalls: getkindWalls
         }
     }
 

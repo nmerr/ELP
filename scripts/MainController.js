@@ -8,7 +8,7 @@
             .module('formlyApp')
             .controller('MainController', MainController);
 
-        function MainController(inventoryType, floorNumber, numberOfRoom, roomTypes, stateOfStuff, kindWall, kindRoof,kindStore,kindGround) {
+        function MainController(inventoryType, floorNumber, numberOfRoom, roomTypes, stateOfStuff, kindWalls, kindRoof,kindStore,kindGround) {
 
             var vm = this;
 
@@ -522,7 +522,7 @@
                                         type: 'select',
                                         templateOptions: {
                                             label: 'Revêtement Murs',
-                                            options: kindWall.getkindWall(),
+                                            options: kindWalls.getkindWalls(),
                                             hide: '!(model.TypeofRoom === )'
                                         }
                                     },
